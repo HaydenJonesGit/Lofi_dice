@@ -1,0 +1,21 @@
+.centered-btn-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  background-color: #5e253c;
+  color: #eda0c5;
+  padding: 10px 25px;
+  border: 1px solid #5e253c;
+  border-radius: 2px;
+  margin: 10px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.btn:active {
+  color: #5e253c;
+  background-color: #eda0c5;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+}

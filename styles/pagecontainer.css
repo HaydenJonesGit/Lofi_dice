@@ -1,0 +1,17 @@
+/* page container styles */
+
+.page-container {
+  display: flex;
+  justify-content: center;
+}
+
+.page-container .content-wrapper {
+  width: 1000px;
+}
+
+.page-container .content-wrapper img {
+  width: 350px;
+  margin: 25px 40px 20px 0px;
+  float: left;
+  border-radius: 5px;
+}

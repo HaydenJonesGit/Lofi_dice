@@ -1,0 +1,38 @@
+/* universal Styles */
+body {
+  color: #1c1c1c;
+  margin: 0;
+  font-family: 'Space Mono', monospace;
+  background-color: #d1cfde;
+}
+
+.link-hover {
+  transition: 0.5s;
+  font-family: 'Orbitron', sans-serif;
+  color: #5e253c;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.link-hover:hover {
+  color: #eda0c5 !important;
+}
+
+.main-header {
+  text-align: center;
+  color: #5e253c;
+}
+
+.anchor-link {
+  text-decoration: none;
+}
+
+.anchor-link:focus {
+  outline: none;
+}
+
+.anchor-link h1::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f522  ";
+  font-weight: 900;
+}

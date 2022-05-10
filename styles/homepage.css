@@ -1,0 +1,81 @@
+/* img-bar-section */
+.img-bar-section {
+  background-image: url(../images/diceHeader1.png);
+  padding: 100px;
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1, h4 {
+  padding: 0px;
+  margin: 0px;
+}
+
+.img-bar-section .top-heading {
+  padding: 5px 20px;
+  color: #d1cfde;
+  background-color: #5e253c;
+  width: 196px;
+  border-radius: 2px;
+}
+
+.img-bar-section .bottom-heading {
+  padding: 5px 20px;
+  background-color: #cb7c9c;
+  width: 167px;
+  border-radius: 2px;
+}
+
+/* features-section */
+.features-section {
+  height: 400px;
+  background-color: #cb7c9c;
+  background-image: url(../images/dicePattern1.png);
+  background-size: 102px 101px;
+  border-top: 5px solid #d1cfde;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.75);
+}
+
+.features-section .columns-wrapper {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.features-section .columns-wrapper .column {
+  text-align: center;
+  padding: 20px;
+  margin: 42px;
+  border-bottom: 5px solid transparent;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.features-section .columns-wrapper .column:hover {
+  border-bottom: 5px solid #5e253c;
+}
+
+.features-section .columns-wrapper .column :nth-child(1) {
+  font-size: 2em;
+}
+
+.features-section .columns-wrapper .column :nth-child(2){
+  font-family: 'Orbitron', sans-serif;
+  height: 50px;
+  transition: 1s;
+}
+
+.features-section .columns-wrapper .column :nth-child(2):hover{
+  letter-spacing: 1px;
+}
+
+/* map */
+.google-map {
+  margin-bottom: -5px;
+}

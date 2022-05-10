@@ -1,0 +1,95 @@
+@media (max-width: 615px) {
+  /* home/index page */
+  .header-wrapper{
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    padding: 60px 0px;
+  }
+
+  .header-wrapper .left-column {
+    order: 2;
+    margin: 10px 0 15px 0;
+  }
+
+  .header-wrapper .center-column {
+    order: 1;
+    width: 100%;
+  }
+
+  .navigation-wrapper {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .navigation-wrapper .nav-link {
+    margin: 10px 0px;
+    width: 100%;
+  }
+
+  .header-wrapper .right-column {
+    order: 3;
+    margin-top: 15px;
+  }
+
+  .features-section {
+    height: 100%;
+  }
+
+  .features-section .columns-wrapper {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .footer-wrapper {
+    height: 100%;
+    padding: 10px 0px;
+  }
+
+  /* skewed pages */
+
+  .skewed-header .skewed-header-wrapper .skewed-header-content {
+    flex-direction: column;
+  }
+
+  .skewed-header .header-bg {
+    background-size: 575px;
+  }
+
+  .page-container {
+    padding: 0px 21px;
+  }
+
+  .page-container .content-wrapper #dragonLady {
+    margin:  0px 0px 25px 0px;
+    width: 100%
+  }
+
+  .squares-wrapper .squares .square {
+    grid-template-columns: 1fr;
+  }
+
+  .squares-wrapper .squares .square .img-wrapper {
+    order: 2;
+  }
+
+  .squares-wrapper .squares .square .square-text-wrapper {
+    order: 1;
+  }
+
+  /* contact */
+
+  .contact-grid-wrapper {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+
+  .form input {
+    padding: 1rem 0rem;
+  }
+
+  .form textarea {
+    padding: 1rem 0rem;
+  }
+}
