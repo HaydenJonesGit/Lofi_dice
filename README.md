@@ -1,2 +1,2 @@
 # Lofi_dice
-lofi dice fake shop website
+Practice website for Lofi Dice shop
